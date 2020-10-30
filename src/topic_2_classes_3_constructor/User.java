@@ -1,17 +1,17 @@
 package topic_2_classes_3_constructor;
 
 public class User {
-    int id=0; //byte(-128 127) short(-32000 32000) int long
-    String login = null;
-    String password= null;
-    byte age=0;
-    String sex= null;
-    float weight= 0.0F;
-    double height=0.0;
-    boolean isActive =false;
-    char specialSymbol =' ';
+    public int id = 0; //byte(-128 127) short(-32000 32000) int long
+    public String login = null;
+    public String password = null;
+    public  byte age = 0;
+    public String sex = null;
+    public float weight = 0.0F;
+    public double height = 0.0;
+    public boolean isActive = false;
+    public char specialSymbol = ' ';
 
-    public  User(){
+    public User() {
 
     }
 
@@ -29,7 +29,7 @@ public class User {
     }
 
     @Override
-    public String  toString() {
+    public String toString() {
         return "User{" +
                 "id=" + id +
                 ", login='" + login + '\'' +
